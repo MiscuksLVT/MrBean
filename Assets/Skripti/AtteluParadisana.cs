@@ -1,8 +1,10 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography;
 using UnityEngine;
 using UnityEngine.UI;
+
 
 public class AtteluParadisana : MonoBehaviour
 {
@@ -15,6 +17,8 @@ public class AtteluParadisana : MonoBehaviour
     public GameObject paLabiPoga;
     public GameObject mainigaisAttles;
     public Sprite[] atteluMasiva;
+    public GameObject izmSlaiders;
+    public GameObject rotSlaiders;
 
     public void binaApttelosana(bool vertiba)
     {
@@ -60,6 +64,15 @@ public class AtteluParadisana : MonoBehaviour
 
 
 
-
+    public void mainitLielumu()
+    {
+        float pasreizajaVertiba = izmSlaiders.GetComponent<Slider>().value;
+        mainigaisAttles.transform.localScale = new Vector2(1f * pasreizajaVertiba, 1f * pasreizajaVertiba);
+    }
+    public void mainiRotaciju()
+    {
+        float pasreizajaVertiba = rotSlaiders.GetComponent<Slider>().value;
+        mainigaisAttles.transform.localRotation = Quaternion.Euler(0,0, pasreizajaVertiba*360);
+    }
 }
 
