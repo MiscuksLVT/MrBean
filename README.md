@@ -13,8 +13,8 @@ tema: MR. Bean
 - [x] Drop down elementa lietojums
 - [x] Slider elementu lietojums
 - [ ] Audio source integresana aina
-- [ ] Scroll view elementa litojums
-- [ ] Drag and drop funkcionalitates ievesana
-- [ ] Parslegsana starp ainam
-- [ ] Objectu generesana
-- [ ] Projekta sagatavosana darbinasanai no darbvismas (.exe)
+- [x] Scroll view elementa litojums
+- [x] Drag and drop funkcionalitates ievesana
+- [x] Parslegsana starp ainam
+- [x] Objectu generesana
+- [x] Projekta sagatavosana darbinasanai no darbvismas (.exe)
