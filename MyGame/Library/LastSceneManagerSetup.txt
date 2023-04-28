@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Ainan/Pers.unity
+  isLoaded: 1
+  isActive: 1
